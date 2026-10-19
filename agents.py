@@ -49,7 +49,7 @@ HOURS_TOLERANCE = 0.25  # на скільки години сесій можут
 
 WRITE_TOOLS = {"schedule_session"}
 READ_TOOLS = ["get_deadlines", "get_free_slots"]
-ORCHESTRATOR_TOOLS = ["get_free_slots", "schedule_session"]
+ORCHESTRATOR_TOOLS = ["schedule_session"]
 
 # Серверу передаємо лише потрібні йому змінні — ключ LLM йому ні до чого
 SERVER_ENV = ["MOODLE_ICS_URL", "CALENDAR_BACKEND", "GOOGLE_CALENDAR_ID", "PLANNER_TODAY"]

@@ -151,7 +151,7 @@ def check_rules(start, end, deadline_id, deadline):
         if start < event["end"] and event["start"] < end:
             return error("time_conflict", f"Перетин з «{event['title']}» ({event['start']}–{event['end']})",
                          f"Спробуйте до {event['start']} або після {event['end']}, "
-                         "або подивіться get_free_slots")
+                         "або оберіть інший вільний слот")
 
     used, new = study_hours(day_events), hours_between(start, end)
     if used + new > MAX_HOURS_PER_DAY:  # R3
@@ -197,7 +197,7 @@ def schedule_session(title: str, start: str, end: str, deadline_id: str) -> dict
 
     if start_dt < now():  # R6
         return error("in_the_past", f"Початок {start} уже в минулому (зараз {now():%Y-%m-%dT%H:%M})",
-                     "Обирайте час у майбутньому — get_free_slots показує тільки його")
+                     "Обирайте час у майбутньому")
 
     try:
         deadlines = {d["id"]: d for d in moodle.load_deadlines()}
