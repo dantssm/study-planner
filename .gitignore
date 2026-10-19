@@ -16,3 +16,14 @@ token.json
 
 # Трейси локальних запусків
 traces/
+
+# Згенеровані під час роботи
+study_plan.csv
+data/local_calendar.json
+data/deadlines.json
+results.json
+results.md
+.pytest_cache/
+
+# Налаштування редактора
+.vscode/

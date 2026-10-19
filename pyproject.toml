@@ -9,12 +9,21 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "mcp==2.3.0",
-    "google-genai==2.31.0",
     "google-api-python-client==2.201.0",
     "google-auth-oauthlib==1.5.0",
     "python-dotenv==1.2.4",
     "icalendar==7.3.0",
+    "openai>=3.35.1",
 ]
 
 [tool.uv]
 package = false  # це набір скриптів, а не бібліотека — нічого не збираємо
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]  # тести імпортують модулі з кореня репозиторію

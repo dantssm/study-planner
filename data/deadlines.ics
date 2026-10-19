@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Moodle Pty Ltd//NONSGML Moodle Version 2024100700//EN
+BEGIN:VEVENT
+UID:d1
+SUMMARY:Квіз 3 закривається
+DESCRIPTION:Квіз за матеріалами лекцій 4–5: ARIMA і сезонність. 10 питань з однією правильною відповіддю\, тривалість спроби 20 хвилин\, одна спроба. Максимум 5 балів.
+CATEGORIES:Прогнози
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T205900Z
+DTEND:20261021T205900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d2
+SUMMARY:Лабораторна 2 – термін здачі
+DESCRIPTION:RAG-пайплайн над власними документами (Jupyter notebook). POINTS: 4. SUBMIT `L2_<your-surname>.ipynb` (all English). Please note that submissions that do not follow the naming convention will not be graded!!! RUBRIC: POINTS. Documents are chunked with two different strategies and the choice of chunk size is justified 1. Retrieval is evaluated on at least five questions with a stated metric 1. Both strategies are compared on the same questions and the difference is explained 1. Report has a conclusion with a genuine "so what" and known limitations 1
+CATEGORIES:Генеративний ШІ
+URL:https://learn.example/mod/assign/view.php?id=2201
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T205900Z
+DTEND:20261023T205900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d3
+SUMMARY:Есе про нормалізацію – термін здачі
+DESCRIPTION:Есе на 2–3 сторінки: навіщо потрібні нормальні форми і коли денормалізація виправдана. Обов'язково власний приклад таблиці до і після нормалізації до 3НФ. Максимум 10 балів. Формат PDF. Links: ------ [1] https://learn.example/mod/assign/view.php?id=2202
+CATEGORIES:Бази даних
+DTSTAMP:20261018T120000Z
+DTSTART:20261024T205900Z
+DTEND:20261024T205900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d4
+SUMMARY:Міні-проєкт: агенти та MCP – термін здачі
+DESCRIPTION:Умова завдання в доданому файлі. Два агенти з різними ролями\, MCP-сервер з 2–3 інструментами\, 5 тестових запитів\, порівняння з одним агентом\, демо-відео 2–3 хвилини та схема архітектури. Замість файлу можна додати посилання на репозиторій.
+CATEGORIES:Прогнози
+URL:https://learn.example/mod/assign/view.php?id=2203
+DTSTAMP:20261018T120000Z
+DTSTART:20261026T080000Z
+DTEND:20261026T080000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d5
+SUMMARY:Лабораторна 4 – термін здачі
+DESCRIPTION:Індекси і плани виконання запитів у PostgreSQL. POINTS: 4. Порівняйте EXPLAIN ANALYZE для трьох запитів до і після створення індексів і поясніть\, чому планувальник обрав саме такий план. Здати SQL-скрипт і короткий звіт (до 1 сторінки).
+CATEGORIES:Бази даних
+DTSTAMP:20261018T120000Z
+DTSTART:20261031T215900Z
+DTEND:20261031T215900Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d6
+SUMMARY:Квіз 2 закривається
+DESCRIPTION:Квіз за темою промпт-інжинірингу. 8 питань\, тривалість спроби 15 хвилин. Максимум 4 бали.
+CATEGORIES:Генеративний ШІ
+DTSTAMP:20261018T120000Z
+DTSTART:20261017T205900Z
+DTEND:20261017T205900Z
+END:VEVENT
+END:VCALENDAR
