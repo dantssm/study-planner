@@ -1,0 +1,11 @@
+{
+  "events": [
+    {"id": "ev-001", "title": "Лекція: Прогнози", "start": "2026-10-19T10:00", "end": "2026-10-19T11:20", "kind": "class", "deadline_id": null},
+    {"id": "ev-002", "title": "Лекція: Генеративний ШІ", "start": "2026-10-19T11:40", "end": "2026-10-19T13:00", "kind": "class", "deadline_id": null},
+    {"id": "ev-003", "title": "Практика: Бази даних", "start": "2026-10-20T14:40", "end": "2026-10-20T16:00", "kind": "class", "deadline_id": null},
+    {"id": "ev-004", "title": "Тренування", "start": "2026-10-20T19:00", "end": "2026-10-20T20:30", "kind": "personal", "deadline_id": null},
+    {"id": "ev-005", "title": "Лекція: Бази даних", "start": "2026-10-21T10:00", "end": "2026-10-21T11:20", "kind": "class", "deadline_id": null},
+    {"id": "ev-006", "title": "Семінар: Прогнози", "start": "2026-10-22T13:00", "end": "2026-10-22T14:20", "kind": "class", "deadline_id": null},
+    {"id": "ev-007", "title": "Робота", "start": "2026-10-23T09:00", "end": "2026-10-23T13:00", "kind": "personal", "deadline_id": null}
+  ]
+}

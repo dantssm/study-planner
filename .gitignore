@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Секрети — ніколи не комітити
+.env
+credentials.json
+token.json
+
+# Трейси локальних запусків
+traces/

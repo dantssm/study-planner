@@ -1,17 +1,20 @@
 [project]
 name = "study-planner"
 version = "0.1.0"
-description = "Study planner"
+description = "Study planner: два агенти + MCP-сервер, дедлайни з Moodle, блоки в Google Calendar"
 readme = "README.md"
 authors = [
     { name = "Danylo Tsymbal", email = "d.tsymbal.pn@ucu.edu.ua" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mcp==2.3.0",
+    "google-genai==2.31.0",
+    "google-api-python-client==2.201.0",
+    "google-auth-oauthlib==1.5.0",
+    "python-dotenv==1.2.4",
+    "icalendar==7.3.0",
+]
 
-[project.scripts]
-study-planner = "study_planner:main"
-
-[build-system]
-requires = ["uv_build>=0.12.24,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false  # це набір скриптів, а не бібліотека — нічого не збираємо
